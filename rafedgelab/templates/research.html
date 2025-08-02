@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block title %}Research - Rafedge Lab{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto py-16 px-4">
+    <h1 class="text-4xl font-bold mb-8 text-center text-gray-800">Research Areas</h1>
+    <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="/static/images/Distributed.jpg" alt="Distributed Computing" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-2xl font-semibold mb-4 text-blue-600">Scheduling Algorithms</h3>
+                <p class="text-gray-700 mb-4">Advanced algorithms for task scheduling in distributed and real-time systems.</p>
+                <a href="https://en.wikipedia.org/wiki/Category:Scheduling_algorithms" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm">
+                    <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                    </svg>
+                    Learn More on Wikipedia
+                </a>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="/static/images/Edge.jpg" alt="Edge Computing" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-2xl font-semibold mb-4 text-blue-600">Edge Computing</h3>
+                <p class="text-gray-700 mb-4">Optimizing computation at the network edge for improved performance and reduced latency.</p>
+                <a href="https://en.wikipedia.org/wiki/Edge_computing" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm">
+                    <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                    </svg>
+                    Learn More on Wikipedia
+                </a>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="/static/images/Healthcare.jpg" alt="Digital Healthcare" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-2xl font-semibold mb-4 text-blue-600">Digital Healthcare</h3>
+                <p class="text-gray-700 mb-4">Applying computing technologies to improve healthcare delivery and patient outcomes.</p>
+                <a href="https://en.wikipedia.org/wiki/Digital_health" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm">
+                    <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                    </svg>
+                    Learn More on Wikipedia
+                </a>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img src="/static/images/Agriculture.jpg" alt="Digital Agriculture" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-2xl font-semibold mb-4 text-blue-600">Digital Agriculture</h3>
+                <p class="text-gray-700 mb-4">Smart farming solutions using IoT, AI, and distributed computing technologies.</p>
+                <a href="https://en.wikipedia.org/wiki/Digital_agriculture" target="_blank" class="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm">
+                    <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                    </svg>
+                    Learn More on Wikipedia
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

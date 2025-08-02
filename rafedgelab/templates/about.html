@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block title %}About - Rafedge Lab{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="bg-gradient-to-r from-blue-900 to-gray-900 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+        <h1 class="text-5xl font-bold mb-6">About <span class="text-yellow-400">Rafedge Lab</span></h1>
+        <p class="text-xl text-blue-200 max-w-3xl mx-auto">
+            A world-class research laboratory pioneering innovations in distributed systems, edge computing, and real-time technologies.
+        </p>
+    </div>
+</div>
+
+<!-- Main Content -->
+<div class="max-w-7xl mx-auto px-4 py-16">
+    <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+        <div>
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
+            <p class="text-lg text-gray-700 mb-6">
+                To conduct world-class research in distributed and real-time systems while fostering the next generation 
+                of computer scientists and engineers who will shape the future of technology.
+            </p>
+            <p class="text-lg text-gray-700 mb-6">
+                We bridge the gap between theoretical research and practical applications, creating solutions that 
+                have real-world impact across industries.
+            </p>
+            <div class="bg-blue-50 rounded-lg p-4 mb-8">
+                <p class="text-lg text-blue-800 font-semibold">📅 Established in 2010 at IIT Ropar</p>
+                <p class="text-blue-700">Over 15 years of excellence in distributed systems research and innovation</p>
+            </div>
+            <a href="/research/" class="amazon-btn">Explore Our Research</a>
+        </div>
+        <div>
+            <img src="/static/images/Nitin.jpg" 
+                 alt="Dr. Nitin Auluck" class="rounded-lg shadow-lg">
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="bg-gray-100 rounded-lg p-8 mb-16">
+        <div class="grid md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div class="text-4xl font-bold text-blue-600 mb-2">50+</div>
+                <div class="text-gray-700">Research Publications</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-blue-600 mb-2">15+</div>
+                <div class="text-gray-700">Team Members</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-blue-600 mb-2">15+</div>
+                <div class="text-gray-700">Years of Excellence</div>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-blue-600 mb-2">25+</div>
+                <div class="text-gray-700">Industry Partners</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Research Areas -->
+    <div class="mb-16">
+        <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Research Excellence</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-blue-600 mb-4">Distributed Systems</h3>
+                <p class="text-gray-700">Advanced algorithms and architectures for large-scale distributed computing environments.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-blue-600 mb-4">Edge Computing</h3>
+                <p class="text-gray-700">Optimizing computation at network edges for improved performance and reduced latency.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-blue-600 mb-4">Digital Healthcare</h3>
+                <p class="text-gray-700">Innovative computing solutions for modern healthcare delivery and patient outcomes.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h3 class="text-xl font-semibold text-blue-600 mb-4">Smart Agriculture</h3>
+                <p class="text-gray-700">IoT and AI-driven solutions for sustainable and efficient farming practices.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

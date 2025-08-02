@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Gallery - Rafedge Lab{% endblock %}
+{% block content %}
+<div class="max-w-6xl mx-auto py-16 px-4">
+    <h1 class="text-4xl font-bold mb-8 text-center text-gray-800">Gallery</h1>
+    <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Lab Photo" class="w-full h-48 object-cover">
+            <div class="p-4">
+                <p class="text-gray-700">Lab activities and research work</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
