@@ -1,6 +1,6 @@
 # Rafedge Lab Django Website
 
-A Django-based website for Rafedge Lab, converted from React.
+A Django-based website for Rafedge Lab.
 
 ## Setup & Running the Website
 
@@ -54,13 +54,6 @@ A Django-based website for Rafedge Lab, converted from React.
 - Press `Ctrl+C` in the terminal to stop the development server
 - Deactivate virtual environment: `deactivate`
 
-## Features
-
-- All original pages converted to Django templates
-- Tailwind CSS for styling
-- Google Search Console verification meta tag included
-- Responsive design maintained
-- Same navigation and layout as React version
 
 ## Deployment
 
